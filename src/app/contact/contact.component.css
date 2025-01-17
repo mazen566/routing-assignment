@@ -1,0 +1,33 @@
+.contact{
+    font-family: system-ui, sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #2C3E50;
+}
+i{
+    color: #2C3E50;
+}
+.icon{
+    position: relative;
+}
+.icon::before{
+    content: '';
+    background-color: #2C3E50;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    right: 530px;
+    top: 12px;
+}
+.icon::after{
+    content: '';
+    background-color: #2C3E50;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    left: 530px;
+    top: 12px;
+}

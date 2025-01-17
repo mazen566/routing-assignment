@@ -1,0 +1,18 @@
+footer{
+    background-color: #2C3E50;
+}
+footer h3 , footer p , footer i{
+    color: #fff;
+}
+.icon i{
+    border: solid 1px #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.col-md-4{
+    padding: 50px 0 ;
+}
+.end-footer{
+    background-color: #1a252f;
+    color: #fff;
+}

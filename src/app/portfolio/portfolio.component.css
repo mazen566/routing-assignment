@@ -1,0 +1,30 @@
+.portfolio{
+    color: #2C3E50;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+.portfolio h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.icon{
+    position: relative;
+}
+.icon::before{
+    content: '';
+    background-color: #2C3E50;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    right: 530px;
+    top: 12px;
+}
+.icon::after{
+    content: '';
+    background-color: #2C3E50;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    left: 530px;
+    top: 12px;
+}

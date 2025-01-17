@@ -1,0 +1,32 @@
+.about{
+    background-color: #1abc9c;
+    color: #fff;
+    font-family: system-ui,  sans-serif;
+    padding: 200px 0px;
+}
+.about h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.icon{
+    position: relative;
+}
+.icon::before{
+    content: '';
+    background-color: #fff;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    right: 530px;
+    top: 12px;
+}
+.icon::after{
+    content: '';
+    background-color: #fff;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    left: 530px;
+    top: 12px;
+}
